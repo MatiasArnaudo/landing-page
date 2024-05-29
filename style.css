@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(199, 183, 168, 0.658);
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+ul a {
+  color: black;
+  text-decoration: none;
+}
+
+.RM {
+  width: 50px;
+  box-sizing: border-box;
+}
